@@ -5,7 +5,7 @@
 <h3>Get All Quotes</h3>
 <input (click)="getQuotes()"
 type="button"
-value="click this to get all quotes">
+value="Click this to get all quotes">
 <div *ngIf="response$ | async">
   <pre> {{ response$| async | json }}</pre>
 </div>
